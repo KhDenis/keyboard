@@ -6,7 +6,7 @@ h1 {
   margin: 0px;
 }
 
-textarea {
+.input {
   resize: none;
   width: 700px;
   height: 250px;
@@ -23,8 +23,8 @@ textarea {
 
 .keyboard-container {
   padding: 6px;
-  width: 680px;
-  height: 270px;
+  width: 688px;
+  height: 276px;
   background-color: #C5C6C8;
   border-radius: 20px;
   display: flex;
@@ -34,17 +34,55 @@ textarea {
 }
 
 .key {
-  background: linear-gradient(180deg, #F5F6FA 0%, #D5D6DA 15%, #fafbff 100%);
-  min-width: 40px;
-  height: 40px;
+  background: linear-gradient(180deg, #F5F6FA 0%, rgba(162, 163, 164, 0.8039215686) 20%, #fafbff 100%);
   border-radius: 6px;
-  margin: 1.5px;
+  margin: 3px 2.4px;
+  padding: 3px;
   border: 1.5px ridge rgba(85, 86, 88, 0.9);
-  box-shadow: 1px 1px 1px #868686;
+  box-shadow: 1px 1px 1px rgba(47, 47, 47, 0.6823529412);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #868686;
+  color: rgba(47, 47, 47, 0.6823529412);
+  transition: 0.3s;
+}
+.key:hover {
+  background-color: #555658;
+  color: black;
+}
+.key:hover:active {
+  position: relative;
+  top: 0.5px;
+}
+.key .animated {
+  transition-property: background-color;
+  transition-duration: 3s;
+}
+
+.arrow-block {
+  font-size: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+}
+
+.up-down-buttons {
+  padding-top: 2px;
+  padding-bottom: 1px;
+  margin-top: 0px;
+}
+
+.button-down {
+  background: black;
+  color: white;
+  transition: 0.3s;
+}
+
+.key-down {
+  background-color: #555658;
+  color: black;
+  position: relative;
+  top: 0.5px;
 }
 
 /*# sourceMappingURL=main.css.map*/

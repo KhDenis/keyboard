@@ -1,0 +1,8 @@
+1. Task:
+[task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/virtual-keyboard/virtual-keyboard-en.md)
+2. App screenshot:
+![Screen Shot 2022-05-08 at 16 33 18](https://user-images.githubusercontent.com/36885465/167478139-94fc1a96-bec6-4f37-91bf-1511d3175cb3.png)
+3. Deploy:  
+[deploy](https://khdenis.github.io/keyboard/)
+4. Done 19.04.20 (deadline 19.04.20)
+5. Score: 100 / 100
